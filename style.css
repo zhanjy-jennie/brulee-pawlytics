@@ -1,15 +1,45 @@
-body{font-family:Arial,sans-serif;max-width:1000px;margin:auto;padding:20px;line-height:1.6;background:#faf7f2}
-header{background:#7b4f32;color:white;padding:20px;text-align:center}
-.hero-banner {
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #faf7f2;
+}
+
+header{
+    background: #7b4f32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    padding: 15px;
+    background: #efe4d4;
+}
+
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-banner{
     max-width: 1000px;
     margin: 20px auto;
 }
 
-.hero-banner img {
+.hero-banner img{
     width: 100%;
     height: auto;
     border-radius: 12px;
     display: block;
 }
-nav a{margin:10px;text-decoration:none;font-weight:bold}
-main{background:white;padding:20px;border-radius:10px}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
